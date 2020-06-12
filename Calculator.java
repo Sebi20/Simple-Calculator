@@ -6,7 +6,7 @@ import java.io.*;
 public class Calculator{
 	public static void main(String [] args) throws IOException{
 		Scanner input = new Scanner(System.in);
-		PrintWriter output = new PrintWriter("Calculator.txt");
+		PrintWriter output = new PrintWriter("/Users/sebiseb/eclipse-workspace/Assignments/src/Calculator/Calculator.txt");
 		
 		char operation;// Used to choose operation
 		double num1 = 0;
